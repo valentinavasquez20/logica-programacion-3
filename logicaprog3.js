@@ -6,7 +6,7 @@ function CalcularFact() {
     if (typeof numero === "number") {
         true;
     } else {
-        alert("El numero ingresado no es un numero")
+        alert("El dato ingresado no es un numero")
         return;
     }
 
