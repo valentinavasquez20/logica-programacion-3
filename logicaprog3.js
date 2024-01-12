@@ -1,12 +1,19 @@
-function calcularFactorial() {
+function CalcularFact() {
     // Obtiene el número ingresado por el usuario
     const numero = document.getElementById("numero").value;
   
     // Verifica si el número ingresado es de tipo number
-    if (!Number.isInteger(numero)) {
-      alert("El dato ingresado debe ser un número entero.");
-      return;
+    if (typeof numero === "number") {
+        true;
+    } else {
+        alert("El numero ingresado no es un numero")
+        return;
     }
+
+    //if (!Number.type(numero)) {
+    //  alert("El dato ingresado debe ser un número entero.");
+    //  return;
+    //}
   
     // Calcula el factorial del número
     let factorial = 1;
