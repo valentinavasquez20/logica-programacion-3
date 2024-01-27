@@ -2,13 +2,6 @@ function CalcularFact() {
     // Obtiene el número ingresado por el usuario
     const numero = document.getElementById("numero").value;
   
-    // Verifica si el número ingresado es de tipo number
-    if (typeof numero === "number") {
-        true;
-    } else {
-        alert("El dato ingresado no es un numero")
-        return;
-    }
 
     //if (!Number.type(numero)) {
     //  alert("El dato ingresado debe ser un número entero.");
@@ -22,5 +15,5 @@ function CalcularFact() {
     }
   
     // Imprime el resultado en el DOM
-    document.querySelector("#resultado").innerHTML = factorial;
+    document.querySelector("resultado").innerHTML = factorial;
   }
